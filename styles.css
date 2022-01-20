@@ -8,7 +8,7 @@ main {
   /* box-sizing: border-box; */
   display: flex;
   flex-wrap: wrap;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   
 }
@@ -78,6 +78,7 @@ main {
 }
 .text-para{
     font-weight: 200;
+    padding: 10px;
 }
 .text-center{
     text-align: center;
@@ -110,4 +111,16 @@ hr{
     /* background-color: black; */
     width: 50%;
     border: 1px solid rgb(209, 209, 209);
+}
+
+.position-rel{
+    position: relative;
+}
+.text-overlay{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+.text-light{
+    color: white;
 }
