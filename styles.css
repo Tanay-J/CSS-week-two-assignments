@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+main {
+    display: flex;
+}
+.card {
+  /* box-sizing: border-box; */
+  display: flex;
+  width: 300px;
+  height: 170px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.card-img {
+  width: 30%;
+  height: 70%;
+  border-top-left-radius: 5px;
+}
+.card-img:hover{
+    background-color: rgb(239, 239, 239);
+}
+.book-details {
+  display: flex;
+  flex-direction: column;
+  /* width: 170px; */
+  width: 56.67%;
+  font-family: 'Roboto';
+  padding: 0px 20px;
+}
+.book-details:hover{
+    background-color: rgb(239, 239, 239);
+}
+.book-title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.author {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.card-props {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.card-props button {
+  border: none;
+  font-family: 'Roboto'; 
+  background-color: white;
+}
+
+.text-colored {
+  color: #6200ee;
+}
+button.text-colored:hover {
+    border: none;
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+}
+
+.icon-container {
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-self: center;
+}
+.icon-container button{
+    padding: 2px;
+}
+.icon {
+  height: 18px;
+  width: 18px;
+  padding: 8px;
+}
+.icon-container .icon:hover{
+    background-color: rgb(239, 239, 239);
+    border-radius: 25px;
+}
