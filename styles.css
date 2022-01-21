@@ -76,7 +76,11 @@ main {
   font-family: 'Roboto'; 
   background-color: white;
 }
-
+.card-props button:hover {
+    border: none;
+    background-color: rgb(239, 239, 239);
+    border-radius: 5px;
+}
 .card-props-only-btn{
   display: flex;
   width: 50%;
@@ -109,11 +113,7 @@ main {
 .text-center{
     text-align: center;
 }
-button.text-colored:hover {
-    border: none;
-    background-color: rgb(239, 239, 239);
-    border-radius: 5px;
-}
+
 
 .icon-container {
     margin: 0;
