@@ -39,6 +39,7 @@ header{
   gap: 25px; 
   align-items: center;
   padding: 8px 12px;
+  margin: 5px 0;
   background-color: white;
   border: none;
   border-radius: 2px;
@@ -57,4 +58,8 @@ header{
 .drawer-item:focus{
     background-color: rgba(218, 197, 248, 0.87);
     color: rgba(98, 0, 238, 0.87);
+}
+.drawer-item:default{
+    background-color: rgba(229, 219, 243, 0.87);
+    color: rgba(168, 124, 230, 0.87);
 }
