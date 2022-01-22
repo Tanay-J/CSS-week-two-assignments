@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 231, 231);
+    margin: 20px;
+}
+.container{
+    padding: 8px;
+    /* display: grid; */
+    width: 50%;
+    max-width: 230px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header{
+    font-family: 'Roboto';
+    padding: 10px;
+}
+.title{
+    font-weight: 500;
+    font-size: 20px;
+}
+.subtext{
+    font-weight: 400;
+    font-size: 14px;
+    color: dimgray;
+}
+.drawer-container{
+    
+}
+.drawer-item{
+  width: 100%;
+  display: flex; 
+  gap: 25px; 
+  align-items: center;
+  padding: 8px 12px;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(44, 44, 44);
+}
+.drawer-item:hover{
+    background-color: rgb(239, 239, 239);
+}
+.drawer-item i{
+    font-size: 20px;    
+    font-weight: 600;
+}
+.drawer-item:focus{
+    background-color: rgba(218, 197, 248, 0.87);
+    color: rgba(98, 0, 238, 0.87);
+}
