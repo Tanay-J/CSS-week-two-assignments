@@ -29,10 +29,13 @@ main{
 }
 .chip{
     font-family: 'Roboto';
-    padding: 8px;
+    padding: 6px 8px;
     margin: 5px;
     border: none;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
 }
 .chip:hover{
     background-color: rgb(229, 229, 229);
@@ -67,6 +70,22 @@ main{
 .chip-wide{
     width: 150px;
     text-align: left;
+}
+.cancel-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+;
+}
+
+.cancel-icon:hover{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 0%;
+    margin: 0%;
+    /* background-color: rgb(229, 229, 229) ; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .pad-10px{
     padding: 10px;
