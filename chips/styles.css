@@ -24,8 +24,8 @@ main{
 
 }
 .chip-wrapper{
-    /* display: flex;
-    flex-wrap: wrap */
+    display: flex;
+    flex-wrap: wrap
 }
 .chip{
     font-family: 'Roboto';
@@ -34,26 +34,38 @@ main{
     border: none;
     border-radius: 15px;
 }
+.chip:hover{
+    background-color: rgb(229, 229, 229);
+}
 .chip-blueviolet{
     background-color: blueviolet;
     color: white;
 }
+.chip-blueviolet:hover{
+    background-color: rgb(106, 27, 180);
+    color: rgb(219, 219, 219);
+}
 .chip-hotpink{
     background-color: hotpink;
+    color: white;
+}
+.chip-hotpink:hover{
+    background-color: rgb(207, 74, 141);
     color: white;
 }
 .chip-red{
     background-color: red;
     color: white;
 }
+.chip-red:hover{
+    background-color: rgb(207, 18, 18);
+    color: white;
+}
 .chip-wrapper-grid{
     display: grid;
-
-    /* justify-content: flex-start; */
-    border: 2px solid blue;
 }
 .chip-wide{
-    width: 15ss0px;
+    width: 150px;
     text-align: left;
 }
 .pad-10px{
