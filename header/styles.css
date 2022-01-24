@@ -10,10 +10,11 @@ body{
 
 }
 main{
-    padding: 10px;
+    padding: 0px 10px;
 }
 .container{
     margin: 20px 0px;
+    padding: 0px 20px;
     border: 2px solid azure;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -22,22 +23,25 @@ main{
     overflow-y: scroll;
 }
 section{
-    margin: 0px 32px;
+    /* margin: 0px 32px; */
+}
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin: 20px 0px; */
+    background-color: #6b57ed;
+    color: white;
+    padding: 03px 15px;
 }
 .pos-sticky{
     position: sticky;
     top: 0px;
     
 }
-.header-container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 90%;
-    margin: 20px auto;
-    background-color: #6b57ed;
-    color: white;
-    padding: 3px 15px;
+.text-para{
+    padding: 10px 0px;
 }
 .title{
     font-weight: 500;
