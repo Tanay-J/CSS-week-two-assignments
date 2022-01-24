@@ -13,11 +13,25 @@ main{
     padding: 10px;
 }
 .container{
+    margin: 20px 0px;
     border: 2px solid azure;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.scrollable{
+    height: 200px;
+    overflow-y: scroll;
+}
+section{
+    margin: 0px 32px;
+}
+.pos-sticky{
+    position: sticky;
+    top: 0px;
+    
+}
 .header-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     width: 90%;
     margin: 20px auto;
