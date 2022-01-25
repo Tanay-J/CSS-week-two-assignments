@@ -8,5 +8,5 @@ btnSecondary.addEventListener('click', () => {
     }else{
         badgeElement.classList.add('badge');
     }
-
+ 
 })
