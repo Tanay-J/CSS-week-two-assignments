@@ -11,4 +11,4 @@ buttons.forEach(btn => {
             setTimeout(() => container[1].classList.add("hide"),3000);
         }
     })
-})
+}) 
