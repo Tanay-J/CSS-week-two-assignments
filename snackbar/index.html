@@ -13,12 +13,24 @@
 </head>
 <body>
     <main>
-        <div class="container">
+        <h3>Snackbar</h3>
+        <div class="btn-container">
+            <button class="btn-primary">Baseline</button>
+            <button class="btn-primary">Leading</button>
+        </div>
+        <div class="container s-baseline hide">
             <p>Can't send photo. Retry after 5 seconds</p>
             <button class="text-colored">RETRY</button>
             <i class="fas fa-times"></i>
 
         </div>
+        <div class="container s-leading hide">
+            <p>Your photo has been archived</p>
+            <button class="text-colored">UNDO</button>
+            <i class="fas fa-times"></i>
+
+        </div>
     </main>
+    <script src="/snackbar/script.js"></script>
 </body>
 </html>
