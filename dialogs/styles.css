@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap');
 
-
+main{
+    font-family: 'Roboto';
+    margin:5px;
+}
+h3{
+    font-weight: 400;
+}
 .container{
     padding:15px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 .dialog-container{   
-    max-width: 180px;
-    font-family: 'Roboto';
+    max-width: 200px;
+    
 }
 .title{
 
@@ -34,4 +41,23 @@ button{
     font-size: 14px;
     font-weight: 500;
     color: #9154e6;   
+}
+.btn-wide{
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+.btn-wide i{
+    font-size: 36px;
+    color: gray;
+}
+.btn-wide p{
+    font-size: 16px;
+    margin: auto 20px;
+}
+hr{
+    width: 70%;
+    margin: 20px auto;
+    opacity: 0.5;
 }
