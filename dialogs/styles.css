@@ -15,7 +15,7 @@ h3{
 }
 .dialog-container{   
     max-width: 200px;
-    
+    /* max-height: 250px; */
 }
 .title{
 
@@ -55,6 +55,16 @@ button{
 .btn-wide p{
     font-size: 16px;
     margin: auto 20px;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+    max-height: 120px;
+    overflow-y: scroll;
+}
+li{
+    padding: 10px 0px;
 }
 hr{
     width: 70%;
